@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="the doctors menu" type="boolean" value="false" -->
+<!-- TemplateParam name="the-companions" type="boolean" value="false" -->
+<!-- TemplateParam name="If the-companions" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="950">
+  <tr>
+    <td class="home-nav"><a href="../index.html">Home</a></td>
+    <td class="doctors-nav">Workouts</td>
+    <td class="companions-nav"><p>Good Health</p></td>
+    <td class="villains-nav">Good Food</td>
+  </tr>
+  <tr>
+    <td colspan="4"><!-- TemplateBeginEditable name="banner" -->banner<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table width="950">
+  <tr>
+    <td width="537" class="secondary-nav"><ul>
+      <!-- TemplateBeginIf cond="_document['the doctors menu']" -->
+        <li>Arms</li>
+        <li><a href="../the-doctors/the-second-doctor.html">Back</a></li>
+        <li><a href="../the-doctors/the-third-doctor.html">Cardio</a></li>
+        <li><a href="../the-doctors/the-fourth-doctor.html">Chest</a></li>
+        <li><a href="../the-doctors/the-fifth-doctor.html">Full Body</a></li>
+        <li>HIIT</li>
+        <li><a href="../the-doctors/the-seventh-doctor.html">Legs</a></li>
+        <li><a href="../the-doctors/the-eight-doctor.html">Shoulders</a></li>
+        <!-- TemplateEndIf -->
+    </ul>
+      <ul>
+        <!-- TemplateBeginIf cond="_document['the-companions']" -->
+        <li>Atkins Diet</li>
+          <li><a href="../the-companions/ace.html">Carb-Cycling</a></li>
+          <li><a href="../the-companions/adam-mitchell.html">IIFYM</a></li>
+          <li>Juicing</li>
+          <li><a href="../the-companions/donna-noble.html">Master Cleanse Diet</a></li>
+          <li><a href="../the-companions/Susan-Foreman.html">Mediterranean Diet</a></li>
+        <!-- TemplateEndIf -->
+      </ul>
+      <ul>
+      <!-- TemplateBeginIf cond="_document['If the-companions']" -->
+      
+        <li><a href="../the-villains/the-daleks.html">The Best Things To Eat</a></li>
+        <li><a href="../the-villains/sensorites.html">Detox</a></li>
+        <li><a href="../the-villains/monk.html">Farmers Market Guide</a></li>
+        <li><a href="../the-villains/war-machines.html">Yoga</a></li>
+      <!-- TemplateEndIf -->
+      </ul>
+      </td>
+    <td width="451" class="content-area"><!-- TemplateBeginEditable name="master-content" -->[Content Goes Here]<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+</body>
+</html>
