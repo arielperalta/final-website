@@ -29,13 +29,34 @@
 <table width="1000">
   <tr>
     <td width="537"><ul>
-      <!-- TemplateBeginIf cond="workouts" -->      <!-- TemplateEndIf -->
+      <!-- TemplateBeginIf cond="workouts" -->      
+      <p>Chest      </p>
+      <p>Arms</p>
+      <p>Back </p>
+      <p>Legs</p>
+      <p>Shoulders</p>
+      <p>Full Body</p>
+      Cardio
+<p>HIIT</p>
+      <!-- TemplateEndIf -->
     </ul>
       <ul>
-        <!-- TemplateBeginIf cond="_document['good-food']" -->        <!-- TemplateEndIf -->
+        <!-- TemplateBeginIf cond="_document['good-food']" -->
+        <p>Atkins Diet</p>
+        <p>Master Cleanse Diet</p>
+        <p>Mediterranean Diet</p>
+        <p>IIFYM</p>
+        <p>Carb-Cycling </p>
+        <p>Juicing </p>
+        <!-- TemplateEndIf -->
       </ul>
       <ul>
         <!-- TemplateBeginIf cond="_document['good-health']" -->
+        <p>Best Things To Eat</p>
+        <p>Farmers Market Guide </p>
+        <p>Detox</p>
+        <p>Yoga</p>
+        <p>&nbsp;</p>
         <!-- TemplateEndIf -->
       </ul>
       <p>&nbsp;</p>
