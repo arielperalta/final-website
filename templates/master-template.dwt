@@ -17,9 +17,9 @@
 <table width="950">
   <tr>
     <td class="home-nav"><a href="../index.html">Home</a></td>
-    <td class="doctors-nav">Workouts</td>
-    <td class="companions-nav"><p>Good Health</p></td>
-    <td class="villains-nav">Good Food</td>
+    <td class="doctors-nav"><a href="../Workouts/index.html">Workouts</a></td>
+    <td class="companions-nav"><p><a href="../Good Health/index.html">Good Health</a></p></td>
+    <td class="villains-nav"><a href="../Good Food/index.html">Good Food</a></td>
   </tr>
   <tr>
     <td colspan="4"><!-- TemplateBeginEditable name="banner" -->banner<!-- TemplateEndEditable --></td>
@@ -29,33 +29,34 @@
   <tr>
     <td width="537" class="secondary-nav"><ul>
       <!-- TemplateBeginIf cond="_document['the doctors menu']" -->
-        <li>Arms</li>
-        <li><a href="../the-doctors/the-second-doctor.html">Back</a></li>
-        <li><a href="../the-doctors/the-third-doctor.html">Cardio</a></li>
-        <li><a href="../the-doctors/the-fourth-doctor.html">Chest</a></li>
-        <li><a href="../the-doctors/the-fifth-doctor.html">Full Body</a></li>
-        <li>HIIT</li>
-        <li><a href="../the-doctors/the-seventh-doctor.html">Legs</a></li>
-        <li><a href="../the-doctors/the-eight-doctor.html">Shoulders</a></li>
+        <li><a href="../Workouts/arms.html">Arms</a></li>
+        <li><a href="../Workouts/back.html">Back</a></li>
+        <li><a href="../Workouts/cardio.html">Cardio</a></li>
+        <li><a href="../Workouts/chest.html">Chest</a></li>
+        <li><a href="../Workouts/full-body.html">Full Body</a></li>
+        <li><a href="../Workouts/hiit.html">HIIT</a></li>
+        <li><a href="../Workouts/legs.html">Legs</a></li>
+        <li><a href="../Workouts/shoulders.html">Shoulders</a></li>
         <!-- TemplateEndIf -->
     </ul>
       <ul>
         <!-- TemplateBeginIf cond="_document['the-companions']" -->
-        <li>Atkins Diet</li>
-          <li><a href="../the-companions/ace.html">Carb-Cycling</a></li>
-          <li><a href="../the-companions/adam-mitchell.html">IIFYM</a></li>
-          <li>Juicing</li>
-          <li><a href="../the-companions/donna-noble.html">Master Cleanse Diet</a></li>
-          <li><a href="../the-companions/Susan-Foreman.html">Mediterranean Diet</a></li>
+        <li><a href="../Good Food/atkins-diet.html">Atkins Diet</a></li>
+          <li><a href="../Good Food/carb-cycling.html">Carb-Cycling</a></li>
+          <li><a href="../Good Food/iifym.html">IIFYM</a></li>
+          <li><a href="../Good Food/juicing.html">Juicing</a></li>
+          <li><a href="../Good Food/master-cleanse-diet.html">Master Cleanse Diet</a></li>
+          <li><a href="../Good Food/mediterranean-diet.html">Mediterranean Diet</a></li>
         <!-- TemplateEndIf -->
       </ul>
       <ul>
       <!-- TemplateBeginIf cond="_document['If the-companions']" -->
       
-        <li><a href="../the-villains/the-daleks.html">The Best Things To Eat</a></li>
-        <li><a href="../the-villains/sensorites.html">Detox</a></li>
-        <li><a href="../the-villains/monk.html">Farmers Market Guide</a></li>
-        <li><a href="../the-villains/war-machines.html">Yoga</a></li>
+        <li><a href="../Good Health/best-things-to-eat.html">The Best Things To Eat</a></li>
+        <li><a href="../Good Health/detox.html">Detox</a></li>
+        <li><a href="../Good Health/farmers-market-guide.html">Farmers Market Guide</a></li>
+        <li><a href="../Good Health/yoga.html">Yoga</a></li>
+        <li><a href="../Good Health/supplements.html">Supplements </a></li>
       <!-- TemplateEndIf -->
       </ul>
       </td>
