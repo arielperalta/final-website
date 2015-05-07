@@ -7,7 +7,7 @@ body {
 	color: #333;
 }
 body {
-	background-color: #000;
+	background-color: #F00;
 }
 .insertimage {
 	float: left;
@@ -27,29 +27,29 @@ body {
 }
 .content-area {
 	padding-left: 20px;
-	background-color: #FC0;
+	background-color: #FFF;
 }
 s
 td {
 	padding: 0px;
 }
 .home-nav {
-	background-color: #FF3;
+	background-color: #999;
 	width: 25%;
 	text-align: center;
 }
 .doctors-nav {
-	background-color: #CCF;
+	background-color: #6F9;
 	width: 25%;
 	text-align: center;
 }
 .companions-nav {
 	width: 25%;
-	background-color: #6FC;
+	background-color: #0FF;
 	text-align: center;
 }
 .villains-nav {
-	background-color: #3CF;
+	background-color: #FFF;
 	width: 25%;
 	text-align: center;
 }
